@@ -31,4 +31,8 @@ class CategoryTest < ActiveSupport::TestCase
     assert_not @category.valid?
   end
   
+  test "should redirect create when admin not logged in" do
+    
+  end
+  
 end
